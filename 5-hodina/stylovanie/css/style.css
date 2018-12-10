@@ -1,0 +1,35 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+}
+
+body ul li a {
+  color: white;
+}
+
+ul li a {
+  color: green;
+}
+
+li a {
+  color: white;
+}
+
+a {
+  color: pink;
+}
+
+h1,
+p {
+  color: green;
+}
+
+ul {
+  border: 20px solid white;
+  background-color: black;
+  height: 180px;
+  width: 200px;
+}
