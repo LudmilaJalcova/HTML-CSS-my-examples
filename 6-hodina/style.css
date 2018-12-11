@@ -1,0 +1,83 @@
+/* * {
+  border: 1px solid red; sluzi na zistenie kolko dany element zabera priestoru na stranke
+} */
+
+h1 {
+  color: red;
+}
+
+.moj-list-2 {
+  background-color: red;
+}
+
+.moj-list {
+  background-color: green;
+}
+
+ul {
+  background-color: black;
+}
+
+a {
+  display: block;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.title-primary {
+  color: blue;
+}
+
+.title-secondary {
+  color: aqua;
+}
+
+#unikatne {
+  color: blueviolet;
+}
+
+/* selektujem p element ktory je priamym potomkom div elementu */
+div>p {
+  background-color: yellow;
+}
+
+/* selektujem nasledujuci jeden p element ktory sa nachadza za div elementom */
+div+p {
+  border: 1px solid red;
+}
+
+/* selektujem vsetky p elementy ktore sa nachadzaju za div elementom */
+div~p {
+  color: blue;
+}
+
+h1.title {
+  font-weight: bold;
+}
+
+h1[class*="title"] {
+  font-weight: normal;
+}
+
+.poradie li:first-child {
+  border: 1px solid red;
+}
+
+.poradie li:last-child {
+  border: 1px solid green;
+}
+
+.poradie li:nth-child(3) a {
+  color: white;
+}
+
+.poradie li:nth-child(3) a:hover {
+  color: yellow;
+  /* background-color: white; */
+}
+
+.poradie li a:active {
+  border: 1px solid yellow;
+}
