@@ -1,0 +1,37 @@
+div {
+  background-color: lightblue;
+  width: 30%;
+  padding: 5px;
+}
+
+h1:first-of-type {
+  background: tomato;
+}
+
+.Orange {
+  background-color: orange;
+}
+
+.DodgerBlue {
+  background-color: DodgerBlue;
+}
+
+#MediumSeaGreen {
+  background-color: mediumseagreen;
+}
+
+.Gray {
+  background-color: Gray;
+}
+
+.SlateBlue {
+  background-color: SlateBlue;
+}
+
+.Violet {
+  background-color: Violet;
+}
+
+h1:last-child {
+  background-color: LightGray;
+}
