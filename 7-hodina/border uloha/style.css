@@ -1,0 +1,54 @@
+.hranica_plna {
+  /* border-width:  top right bottom left; */
+  border-width: 10px;
+  /* border-width: 10px 20px;
+  border-width: 10px 20px 30px;
+  border-width: 10px 20px 30px 40px;
+  border-width: 10px 20px 10px 40px;
+  border-width: 10px 0 10px; */
+
+  border-style: solid;
+  border-color: #000;
+}
+
+.hranica_plna_skratka {
+  border: 10px solid #000;
+}
+
+.hranica_plna_skratka_top {
+  /* border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #000; */
+  border-top: 1px solid #000;
+}
+
+.hranica_plna_skratka_right {
+  /* border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #000; */
+  border-right: 1px solid #000;
+}
+
+.hranica_plna_skratka_bottom {
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000; */
+  border-bottom: 1px solid #000;
+}
+
+.hranica_plna_skratka_left {
+  /* border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #000; */
+  border-left: 1px solid #000;
+}
+
+.hranica_plna_skratka_zaoblenie {
+  border-radius: 50px;
+  /* border-radius: 50px 0;
+  border-radius: 50px 0 30px;
+  border-radius: 50px 0 30px 80px;
+  border-radius: 50px 0 50px 80px;
+  border-radius: 50px 0 80px;
+  border-top-left-radius: 50px; */
+}

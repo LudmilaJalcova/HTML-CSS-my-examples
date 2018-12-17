@@ -1,0 +1,25 @@
+div {
+  background-color: lightblue;
+  width: 50%;
+}
+
+.title1 {
+  background-color: magenta;
+  color: white;
+}
+
+.title2 {
+  background-color: black;
+  color: white;
+}
+
+.title3 {
+  background-color: orange;
+  color: white;
+}
+
+h1[title="title4"] {
+  background-color: rgb(21, 218, 31);
+  color: yellow;
+
+}

@@ -1,0 +1,26 @@
+body {
+  /* background-image: url("./img/nahnevany_pes.png");
+  background-attachment: fixed;
+  background-position: top right;
+  background-repeat: no-repeat; */
+  background: orange url("./img/nahnevany_pes.png") no-repeat fixed top right;
+
+}
+
+img {
+  border: 1px solid red;
+}
+
+.pozadie {
+  /* background-color: orange; */
+  background-image: url("./img/nahnevany_pes.png");
+  background-repeat: no-repeat;
+  /* background-position: 50px 50px; */
+  background-position: bottom left;
+  background-size: cover;
+  /* vypln obrazok na celkovu sirku elementu */
+  height: 500px;
+  width: 400px;
+  /* background-size: 300px 100px;  */
+  /*sirka vyska*/
+}

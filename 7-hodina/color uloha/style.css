@@ -1,0 +1,25 @@
+.title_color_name {
+  color: orange;
+}
+
+.title_color_rgb {
+  /* color: rgb(red, green, blue) */
+  color: rgb(000, 000, 000);
+}
+
+.title_color_rgba {
+  /* color: rgba(red, green, blue, alpha) */
+  border: 8px solid #000;
+  color: rgba(000, 000, 000, .5);
+}
+
+.title_color_hex {
+  /* color: #ff6644; */
+  /* color: #f64; */
+  /* color : #ff6344; */
+
+  color: #000;
+  border: 8px solid #000;
+  opacity: 0.5;
+  /* priehľadnosť všetkých štýlov */
+}
