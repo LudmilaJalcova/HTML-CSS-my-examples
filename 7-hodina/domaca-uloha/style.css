@@ -1,0 +1,29 @@
+body {
+  background: chocolate url(./img/rhodesian\ ridgeback.jpg) top right fixed no-repeat
+}
+
+.ramcek {
+  border: 1px solid black;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-width: 10px 20px 30px 40px;
+}
+
+.text1 {
+  color: blue;
+  border-bottom: 1px solid white
+}
+
+.text2 {
+  color: rgb(255, 0, 0);
+  border-bottom: 1px solid white;
+}
+
+.text3 {
+  color: #008000;
+  border-bottom: 1px solid white;
+}
+
+.text4 {
+  color: hsl(60, 100%, 50%)
+}
