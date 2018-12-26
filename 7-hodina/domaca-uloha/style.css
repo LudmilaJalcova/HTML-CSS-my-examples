@@ -1,7 +1,10 @@
+/* pri vytvarani ulohy postupujem smerom z von dnu, cize najprv vytvaram body, kde si zvolim farbu pozadia, nalinkujem si obrazok, jeho poziciu, to ci bude fixny a ci sa bude opakovat alebo nie */
 body {
   background: chocolate url(./img/rhodesian\ ridgeback.jpg) top right fixed no-repeat
 }
 
+/* potom nastavim vseobecne vlastnosti, ktore sa budu tykat kazdej h1. Tym si ulahcim robotu, pretoze to potom nebudem musiet pisat ku kazdej h1 zvlast.
+Nastavim si hranicu, styl hranice a jej farbu. Ak treba, nastavim si aj radius(zaoblenie) a nastavim si uz aj sirku hranice(top right bottom left) */
 .ramcek {
   border: 1px solid black;
   border-top-left-radius: 50px;
@@ -9,6 +12,7 @@ body {
   border-width: 10px 20px 30px 40px;
 }
 
+/* potom uz nastavujem jednotlive h1. Nastavujem farbu(tym sa mysli farba textu) a mozem nastavit aj farbu hranice v pripade, ze nebudu vsetky strany hranice takej farby, aku sme si nastavili uz vo vseobecnych vlastnostiach pri divku (.ramcek) */
 .text1 {
   color: blue;
   border-bottom: 1px solid white

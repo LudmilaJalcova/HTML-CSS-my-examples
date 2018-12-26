@@ -1,0 +1,7 @@
+.list-float li {
+  float: left;
+}
+
+.navigation-2 {
+  clear: both;
+}

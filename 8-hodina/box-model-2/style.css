@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  background-color: #000;
+}
+
+nav {
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bc-white {
+  background-color: #fff;
+}
+
+.title {
+  padding: 100px;
+}
+
+ul li {
+  padding: 10px;
+  background-color: #000;
+}
+
+ul li a {
+  padding: 12px 7px;
+  background-color: red;
+  color: #fff;
+}
