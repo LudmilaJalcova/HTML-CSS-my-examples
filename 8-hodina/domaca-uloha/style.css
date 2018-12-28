@@ -1,0 +1,36 @@
+/* zacinam "p", pretoze je to globalny element. Nastavim farbu pisma, pozadie */
+p {
+  background: blue;
+  color: white;
+}
+
+/* musim najprv pouzit prve divko, ktore som si nazvala "obalovac".Vytvorim border, outline a margin*/
+.obalovac {
+  border: 3px solid black;
+  outline: 3px solid orange;
+  margin: 10px 10px 20px;
+}
+
+/* toto je vnutorne divko, pre kazde vnutorne divko som si nastavila dve klasy, vseobecnej klase "box" nastavim vlastnosti tykajuce sa kazdeho boxu */
+.box {
+  padding: 10px;
+  border: 3px solid red;
+  margin: 10px;
+}
+
+/* a potom specificke nastavenie pre kazdy box */
+.boxtop {
+  margin-top: 30px;
+}
+
+.boxright {
+  margin-right: 30px;
+}
+
+.boxbottom {
+  margin-bottom: 30px;
+}
+
+.boxleft {
+  margin-left: 30px;
+}
