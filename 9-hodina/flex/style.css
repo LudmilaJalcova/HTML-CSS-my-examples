@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 10px 0
+}
+
+hr {
+  color: #fff;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: blue;
+  padding: 20px 0;
+}
+
+.menu {
+  /* for debugging */
+  border: 1px solid #fff;
+  width: 900px;
+  display: flex;
+}
+
+.menu-start {
+  /* defaltna hodnota  */
+  justify-content: flex-start;
+}
+
+.menu-center {
+  justify-content: center;
+}
+
+.menu-end {
+  justify-content: flex-end;
+}
+
+.menu-space-around {
+  justify-content: space-around;
+}
+
+.menu-space-between {
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+}
+
+.links .login {
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  height: 300px;
+  width: 900px;
+  justify-content: space-between;
+  border: 1px solid #fff;
+}
+
+.header-start {
+  align-items: flex-start;
+}
+
+.header-center {
+  align-items: center;
+}
+
+.header-end {
+  align-items: flex-end;
+}
+
+.header-stretch {
+  align-items: stretch;
+}
+
+.header-stretch div {
+  border: 1px solid black;
+  background-color: red;
+}
