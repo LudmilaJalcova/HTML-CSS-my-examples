@@ -1,0 +1,36 @@
+.container-flex {
+  margin: 10px;
+  width: 800px;
+  height: 200px;
+  background-color: rgb(89, 142, 211);
+  display: flex;
+}
+
+.list-flex-1 {
+  align-items: flex-start;
+}
+
+.list-flex-2 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.list-flex-3 {
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.list-flex-4 {
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.container-flex li {
+  /* 
+    pozor na pridavanie sirky a vysky pri display 
+    flexu pokazi sa toto   align-items: stretch;
+  */
+  background-color: #fff;
+  padding: 10px;
+  margin: 2px;
+}

@@ -27,6 +27,8 @@ hr {
 }
 
 .menu-start {
+  /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+
   /* defaltna hodnota  */
   justify-content: flex-start;
 }
@@ -64,6 +66,7 @@ hr {
 }
 
 .header-start {
+  /* align-items: flex-start | flex-end | center | baseline | stretch; */
   align-items: flex-start;
 }
 

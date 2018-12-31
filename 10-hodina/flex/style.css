@@ -1,0 +1,113 @@
+.flex {
+  /* defaultna hodnota flex direction row */
+  flex-direction: row;
+  display: flex;
+  margin: 10px;
+}
+
+.flex-nowrap {
+  /* defaultna hodnota */
+  flex-wrap: nowrap
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.container-flex {
+  justify-content: center;
+}
+
+.container-flex li {
+  width: 300px;
+  padding: 20px;
+}
+
+.container-flex li:nth-child(n) {
+  background-color: rgb(78, 219, 85);
+}
+
+.container-flex li:nth-child(2),
+.container-flex li:nth-child(8) {
+  background-color: rgb(219, 210, 78);
+}
+
+.container-flex li:nth-child(3),
+.container-flex li:nth-child(7) {
+  background-color: rgb(199, 92, 43);
+}
+
+.container-flex li:nth-child(4),
+.container-flex li:nth-child(6) {
+  background-color: rgb(109, 78, 219);
+}
+
+.container-flex li:nth-child(5) {
+  background-color: rgb(104, 18, 97);
+}
+
+.flex-direction-row-reverse {
+  /* flex-direction: row | row-reverse | column | column-reverse; */
+  flex-direction: row-reverse;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+  flex-direction: column-reverse
+}
+
+.flex-order li:nth-child(3) {
+  order: 9;
+}
+
+.flex-row-max li {
+  width: auto;
+  flex: 1;
+}
+
+.flex-grow {
+  /* flex-wrap: nowrap | wrap | wrap-reverse; */
+  flex-wrap: wrap;
+}
+
+.flex-grow li {
+  width: auto;
+  flex-grow: 1;
+}
+
+.flex-grow li:nth-child(2) {
+  flex-grow: 2;
+}
+
+.flex-align-self-start {
+  align-items: flex-end;
+  height: 300px;
+}
+
+.flex-align-self-start li:nth-child(1) {
+  /* auto | flex-start | flex-end | center | baseline | stretch */
+  align-self: flex-start;
+}
+
+.flex-align-self-start li:nth-child(2) {
+  align-self: flex-end;
+}
+
+.flex-align-self-start li:nth-child(3) {
+  align-self: center;
+}
+
+.flex-align-self-start li:nth-child(4) {
+  align-self: baseline;
+}
+
+.flex-align-self-start li:nth-child(5) {
+  align-self: stretch;
+}

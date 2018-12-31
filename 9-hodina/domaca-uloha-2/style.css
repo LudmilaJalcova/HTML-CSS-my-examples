@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  overflow: hidden;
+}
+
+.header,
+.footer {
+  width: 80%;
+  margin: 10px;
+  background-color: gray;
+}
+
+.title {
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.title-big {
+  font-size: 30px;
+}
+
+.title-big::after {
+  content: " po";
+}
+
+.title-big::before {
+  content: "pred ";
+}
+
+.title-small {
+  font-size: 20px;
+}
+
+.sidebar {
+  padding: 10px;
+  width: 200px;
+  float: left;
+}
+
+.list li {
+  padding: 10px;
+  margin: 5px;
+  background-color: lightblue;
+  color: #fff;
+}
+
+.article {
+  width: calc(100% - 200px);
+  height: 100px;
+  padding: 40px 10px 20px;
+  float: left;
+}
+
+.article h1 {
+  color: black;
+}
+
+.clearfix::after {
+  /* 
+    content sluzi na vytvorenie elementu v dome pomocou pseudoselektorov
+    sluzi aj na vkladanie textu do elementu
+  */
+  content: "";
+  clear: both;
+  display: table;
+}
