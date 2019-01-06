@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+.direction-ltr {
+  direction: ltr;
+}
+
+.direction-rtl {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-decoration-overline {
+  text-decoration: overline;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.ext-decoration-underline {
+  text-decoration: underline;
+}
+
+.text-indent {
+  text-indent: 50px;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 3px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: -3px;
+}
+
+.word-spacing-1 {
+  word-spacing: 10px;
+}
+
+.word-spacing-2 {
+  word-spacing: -5px;
+}
+
+.line-height-1 {
+  line-height: 25px;
+}
+
+.line-height-2 {
+  line-height: 1.8px;
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+}
+
+.text-transform-lowercase {
+  text-transform: lowercase;
+}
+
+.text-transform-capitalize {
+  text-transform: capitalize;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.white-space-normal {
+  white-space: normal;
+}
+
+.white-space-pre {
+  white-space: pre;
+}
+
+.vertical-align {
+  line-height: 50px;
+}
+
+.kocka {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  margin: 0 10px;
+}
+
+.vertical-align-baseline span {
+  /* defaltna hodnota  */
+  vertical-align: baseline;
+}
+
+.vertical-align-text-top span {
+  vertical-align: text-top;
+}
+
+.vertical-align-text-bottom span {
+  vertical-align: text-bottom;
+}
+
+.vertical-align-sub span {
+  vertical-align: sub;
+}
+
+.vertical-align-super span {
+  vertical-align: super;
+}
+
+.vertical-align-top span {
+  vertical-align: top;
+}
+
+.vertical-align-bottom span {
+  vertical-align: bottom;
+}
+
+.vertical-align-middle span {
+  vertical-align: middle;
+}
+
+.text-shadow-1 {
+  text-shadow: 200px 0px 0px red, 400px 0px 0px blue;
+}
+
+.text-shadow-2 {
+  text-shadow: 2px 2px 8px red, 2px 2px 8px blue;
+}
+
+.box-shadow-1 {
+  box-shadow: 0 0px 20px 2px red;
+  margin: 20px;
+}
+
+.box-shadow-2 {
+  box-shadow: 0 0px 5px 1px red inset;
+  margin: 20px;
+}
+
+.overflow-hidden {
+  border: 1px solid black;
+  width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-overflow-clip {
+  /* defaltna hodnota  */
+  text-overflow: clip;
+}
+
+.text-overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.opacity-1 {
+  opacity: .5;
+}
+
+.opacity-2 {
+  opacity: 0;
+}
