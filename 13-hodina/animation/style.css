@@ -1,0 +1,32 @@
+.linka {
+  display: block;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 50px auto;
+  transform: rotate(90deg);
+  animation:
+    rotuj 1.5s linear infinite
+}
+
+.linka::after {
+  position: absolute;
+  content: ":)";
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+}
+
+@keyframes rotuj {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}

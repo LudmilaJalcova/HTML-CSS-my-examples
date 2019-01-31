@@ -1,0 +1,240 @@
+html,
+body {
+
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(21, 79, 126);
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.header,
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-title {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.header-list-menu {
+  display: grid;
+  background-color: #fff;
+  padding: 10px 0;
+  border-top: 3px solid rgb(31, 124, 167);
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+  border-radius: 3px;
+}
+
+.header-list-menu a {
+  font-size: 30px;
+  color: rgb(31, 124, 167);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(100px, max-content));
+  grid-gap: 20px;
+}
+
+.content-box {
+  /* position: relative; */
+  border-top: 3px solid rgb(31, 124, 167);
+  border-radius: 3px;
+  background-color: #fff;
+  /* padding-bottom: 40px; */
+}
+
+.content-box-title,
+.content-box-description,
+.content-box-link {
+  padding: 10px 7px;
+}
+
+.content-box-title {
+  font-size: 20px;
+}
+
+.content-box-link {
+  /* position: absolute; */
+  color: orange;
+  font-size: 16px;
+  /* left: 0;
+  right: 0;
+  bottom: 0; */
+}
+
+.content-box:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-box:nth-child(3)>div {
+  flex: 1;
+}
+
+.content-box-image {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: url(./sleepy-doggy.png) no-repeat;
+  background-size: cover;
+  background-position: 0 -72px;
+}
+
+.wrapper-image-box {
+  text-align: center;
+}
+
+.wrapper-image-box img {
+  width: 300px;
+}
+
+.content-box-link-mark {
+  color: #fff;
+  background-color: orange;
+}
+
+.content-box-title-mark {
+  color: #fff;
+  background-color: #3498db;
+}
+
+.content-box:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.content-box:nth-child(2) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.content-box:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+}
+
+.content-box:nth-child(4) {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.content-box:nth-child(5) {
+  display: grid;
+  grid-template-rows: auto 36px;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.content-box:nth-child(6) {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+/* 
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, minmax(100px, max/content));
+  grid-gap: 10px;
+}
+
+.box {
+  background-color: rgb(250, 245, 249);
+  border-radius: 10px;
+  border-top: 3px solid rgb(49, 163, 240);
+  overflow: hidden;
+}
+
+.menu {
+  grid-column: 2 / 5;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 50px;
+  color: rgb(49, 163, 240);
+}
+
+.box1 {
+  grid-column: 2 / 3;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+.learn-more {
+  color: rgb(194, 158, 91);
+  margin: 0;
+  padding: 5px;
+}
+
+.box2 {
+  grid-column: 2 / 3;
+  grid-row: 3 /5;
+}
+
+.img1 {
+  width: 120px;
+  margin-left: 120px;
+}
+
+.box3 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 6;
+}
+
+.img2 {
+  width: 120px;
+  border-radius: 90%;
+  margin: 30px 30px 10px 100px;
+}
+
+.box4 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.box4 .learn-more {
+  background-color: red;
+}
+
+.box5 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+.box5>div>h2 {
+  background-color: rgb(24, 173, 161);
+}
+
+.box6 {
+  grid-column: 4 / 5;
+  grid-row: 4 / 6;
+} */

@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+}
+
+header {
+  background-color: red;
+}
+
+h1 {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.header-container {
+  grid-template-rows: 200px;
+}
+
+.linka {
+  display: grid;
+  border: 1px solid white;
+  color: white;
+  grid-template-rows: auto;
+  text-align: center;
+  align-content: center;
+  margin: 5px;
+}
+
+.section-container {
+  grid-template-columns: 500px auto;
+  background-color: green;
+}
+
+.section-container aside .container {
+  grid-template-rows: repeat(4, 150px);
+  border: 1px solid red;
+  margin: 5px;
+  grid-template-columns: auto;
+}
+
+.container-article {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.container-article-box {
+  border: 1px solid black;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 300px;
+  margin: 10px;
+}
+
+p {
+  grid-template-columns: auto;
+  grid-template-rows: 200px 1px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.img {
+  border: 1px solid red;
+  margin: 5px;
+  display: grid;
+  grid-auto-rows: 200px;
+}
+
+.container-article-box .container {
+  grid-template-columns: auto;
+  grid-template-rows: 120px 120px 120px;
+}
+
+footer {
+  background-color: yellow;
+}
+
+footer .container {
+  grid-template-columns: auto auto auto;
+}
+
+.footer-container {
+  grid-template-rows: 200px 1px;
+}
+
+footer .linka {
+  color: black;
+  border: 1px solid black;
+}

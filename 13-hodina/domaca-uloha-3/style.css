@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(252, 249, 249);
+}
+
+.container {
+  display: grid;
+  grid-gap: 2px;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  /* grid-auto-rows: 250px 150px; */
+  grid-template-rows: repeat(6, minmax(200px, 1fr));
+  grid-template-columns: repeat(6, minmax(200px, 1fr));
+  grid-template: repeat(6, 1fr);
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+.learn-more {
+  color: rgb(233, 171, 39);
+  font-size: 20px;
+}
+
+.box1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: rgb(145, 133, 133);
+}
+
+.box2 {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.box3 {
+  grid-row: 1 / 2;
+  grid-column: 6/ 7;
+}
+
+.box4 {
+  grid-row: 2 / 3;
+  grid-column: 6/ 7;
+}
+
+.box5 {
+  grid-column: 1 / 2;
+  grid-row: span 2;
+}
+
+.box6 {
+  grid-column: 2 / 3;
+  grid-row: span 2;
+}
+
+.box7 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.box8 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: rgb(145, 133, 133);
+}
+
+.box9 {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.box10 {
+  grid-column: span 3;
+  grid-row: span 2;
+}
