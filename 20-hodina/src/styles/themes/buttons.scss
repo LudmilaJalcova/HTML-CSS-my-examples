@@ -1,0 +1,94 @@
+// @import 'base';
+
+// .wrapper-btn {
+//   display: inline-block;
+//   min-width: 110px;
+// }
+
+// button {
+//   cursor: pointer;
+//   user-select: none;
+//   position: relative;
+//   text-align: center;
+//   background-color: transparent;
+//   vertical-align: middle;
+//   border: 0;
+//   padding: 0;
+//   margin: 0;
+
+//   span {
+//     white-space: nowrap;
+//     position: relative;
+//   }
+// }
+
+// .btn {
+//   &-left {
+//     text-align: left;
+//   }
+
+//   &-center {
+//     text-align: center;
+//   }
+
+//   &-right {
+//     text-align: right;
+//   }
+
+//   &-primary,
+//   &-secondary {
+//     min-height: 30px;
+//     font-size: 12px;
+//     padding: 5px 10px;
+//     border-radius: 3px;
+
+//     @media screen and (#{$max-width-736}) {
+//       font-size: 11px;
+//     }
+//   }
+
+//   &-primary {
+//     background-color: $blueBright;
+//     color: $whiteSnow;
+//     min-width: 70px;
+//     text-align: center;
+//   }
+
+//   &-secondary {
+//     background-color: transparent;
+//     color: $greyMediumLight;
+//     border: 1px solid $greyMediumLight;
+//   }
+
+//   &-submitting {
+//     cursor: wait;
+//     height: 100%;
+//   }
+
+//   &-disabled {
+//     cursor: not-allowed;
+//     background-color: transparent;
+//     box-shadow: none;
+//     color: $greyMediumLight;
+//     border: 1px solid $greyMediumLight;
+//     opacity: 0.5;
+
+//     &:hover {
+//       background-color: transparent;
+//       opacity: 0.5;
+//     }
+//   }
+
+//   &-icon {
+//     color: $black;
+//     width: 30px;
+//     height: 30px;
+
+//     &:after {
+//       font-size: 26px;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//     }
+//   }
+// }

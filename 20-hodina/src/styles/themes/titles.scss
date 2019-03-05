@@ -1,0 +1,75 @@
+@import 'base';
+
+.title {
+  &-secondary,
+  &-primary,
+  &-intro,
+  &-error,
+  &-info,
+  &-info-dark {
+    display: block;
+  }
+
+  &-underlined {
+    text-decoration: underline;
+  }
+
+  &-primary {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $greyMedium;
+    font-size: 14px;
+  }
+
+  &-secondary {
+    color: inherit;
+    font-size: 12px;
+  }
+
+  &-intro {
+    text-align: center;
+    color: $greyMedium;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  &-error,
+  &-info,
+  &-info-dark {
+    margin: 10px 0;
+    padding: 7px 10px;
+    font-size: 12px;
+    background: $errorBackground;
+    color: $redBright;
+    border: 1px solid $redBright;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+
+  &-info {
+    color: $fresh-blue;
+    background-color: $bluePale;
+    border: 1px solid $fresh-blue;
+    margin: 0;
+    text-align: center;
+  }
+
+  &-info-dark {
+    color: $super-light-grey;
+    background-color: $fresh-blue;
+    border: 1px solid $fresh-blue;
+    margin: 0;
+  }
+}
+
+.label-form {
+  line-height: normal;
+  display: block;
+  color: inherit;
+  text-align: left;
+  user-select: none;
+  font-size: 11px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="mojeId"></p>
+    <p class="mojaKlasa"></p>
+    <div></div>
+    <input name="mojNazov" type="text" value="mojaHodnota1" /><br />
+    <input name="mojNazov" type="text" value="mojaHodnota2" /><br />
+    <input name="mojNazov" type="text" value="mojaHodnota3" /><br />
+    <b class="all">aaa</b><br />
+    <b class="all">bbb</b><br />
+    <b class="all">ccc</b><br />
+    <script>
+      // Selektory z DOMU
+      document.getElementById("mojeId").innerHTML =
+        "Moj prvy vlozeny text do stranky pomocou id";
+
+      document.getElementsByClassName("mojaKlasa")[0].innerHTML =
+        "Moj druhy vlozeny text do stranky pomocou class";
+
+      document.getElementsByTagName("div")[0].innerHTML =
+        "Moj treti vlozeny text do stranky pomocou nazvu HTML tagu";
+
+      document.getElementsByName("mojNazov")[0].value = "mojaNovaHodnota";
+
+      document.querySelector(".all").innerHTML = "uz nie som aaa,"; // ak chcem pouzit jquery metodu $(".all")
+      document.querySelectorAll("b")[2].innerHTML = "uz nie som ccc"; // ak chcem pouzit jquery metodu $$("b")
+
+      // zapis funkcie a vratenie niecoho
+      // ECMAScript6 skratka ES6 - arrow function
+      const feriDajMneElement = vstup => {
+        return document.querySelectorAll(vstup);
+      };
+      // console.log(feriDajMneElement("p"))
+      // starsi zapis
+      function feriDajMneElment2(vstup) {
+        return document.querySelectorAll(vstup);
+      }
+    </script>
+  </body>
+</html>

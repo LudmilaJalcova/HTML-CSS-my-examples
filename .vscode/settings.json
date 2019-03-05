@@ -24,7 +24,7 @@
     "suppressShowKeyBindingsNotice": true,
     "suppressWelcomeNotice": true
   },
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   "highlight-matching-tag.styles": {
     "opening": {
       "full": {
