@@ -34,4 +34,4 @@ console.log(`porovnavam aj typ hodnot 10 === "10"`, 10 === "10");
 console.log(`neporovnavam typ hodnot 10 == "10"`, 10 == "10");
 
 console.log(`porovnavam aj typ hodnot null === undefined`, null === undefined);
-console.log(`neporovnavam typ hodnot null === undefined`, null == undefined);
+console.log(`neporovnavam typ hodnot null == undefined`, null == undefined);
