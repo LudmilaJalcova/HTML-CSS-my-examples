@@ -1,0 +1,19 @@
+{
+  "name": "2-hodina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:opakovanie": "node ./opakovanie/main.js",
+    "start:objekt": "node ./objekt/main.js",
+    "start:pole": "node ./pole/main.js",
+    "start:funkcie": "node ./funkcie/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
